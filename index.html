@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra Clone</title>
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/75dcc36077.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <nav class="bg-black p-4 flex items-center justify-between">
+        <div class="text-white text-2xl font-bold">
+            <a href="#"><img src="./images/myntra_logo.webp" alt="" class="w-16 ml-10"></a>
+        </div>
+        <div class="hidden md:flex space-x-4">
+            <a href="#" class="text-white">Men</a>
+            <a href="#" class="text-white">Women</a>
+            <a href="#" class="text-white">Kids</a>
+            <a href="#" class="text-white">Home & Living</a>
+            <a href="#" class="text-white">Beauty</a>
+        </div>
+        <div class="hidden md:flex items-center space-x-2">
+            <input type="text" placeholder="Search for products, brands and more" class="px-2 py-1 rounded">
+            <button class="bg-white text-pink-600 px-4 py-1 rounded">Search</button>
+        </div>
+        <div class="hidden md:flex space-x-4">
+            <a href="#" class="text-white"><i class="fa-solid fa-user mr-4"></i></a>
+            <a href="#" class="text-white"><i class="fa-solid fa-heart mr-4"></i></a>
+            <a href="bag.html" class="action_container text-white"><span class="action_name"><img src="images/cart.png" alt="" class="cart w-5 mr-4"></span>
+            <span class="bag-item-count bg-red-400 whitespace-nowrap text-center leading-4 px-1 py-0 relative text-xs text-white font-bold rounded-lg cursor-pointer left-4 -top-8">0</span>
+            </a>
+        </div>
+        <button class="md:hidden text-white" id="menu-button">
+            ☰
+        </button>
+    </nav>
+    <div class="md:hidden bg-pink-600 text-white p-4 space-y-2 hidden" id="mobile-menu">
+        <a href="#" class="block">Men</a>
+        <a href="#" class="block">Women</a>
+        <a href="#" class="block">Kids</a>
+        <a href="#" class="block">Home & Living</a>
+        <a href="#" class="block">Beauty</a>
+        <div class="flex items-center space-x-2">
+            <input type="text" placeholder="Search for products, brands and more" class="px-2 py-1 rounded w-full">
+            <button class="bg-white text-pink-600 px-4 py-1 rounded w-full">Search</button>
+        </div>
+        <a href="#" class="block">Profile</a>
+        <a href="#" class="block">Wishlist</a>
+        <a href="#" class="block">Bag</a>
+    </div>
+</header>
+<main>
+    <div class="items-container mx-20 my-2 flex flex-wrap justify-evenly">
+        
+    </div>
+</main>
+
+<footer class="bg-gray-900 text-white pt-8 pb-4">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div>
+          <h5 class="font-bold mb-4">Shop</h5>
+          <ul>
+            <li class="mb-2"><a href="#" class="hover:text-gray-300">Men</a></li>
+            <li class="mb-2"><a href="#" class="hover:text-gray-300">Women</a></li>
+            <li class="mb-2"><a href="#" class="hover:text-gray-300">Kids</a></li>
+            <li class="mb-2"><a href="#" class="hover:text-gray-300">Home & Living</a></li>
+            <li><a href="#" class="hover:text-gray-300">Beauty</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="font-bold mb-4">Customer Service</h5>
+          <ul>
+            <li class="mb-2"><a href="#" class="hover:text-gray-300">Contact Us</a></li>
+            <li class="mb-2"><a href="#" class="hover:text-gray-300">FAQs</a></li>
+            <li class="mb-2"><a href="#" class="hover:text-gray-300">Terms of Use</a></li>
+            <li class="mb-2"><a href="#" class="hover:text-gray-300">Track Orders</a></li>
+            <li><a href="#" class="hover:text-gray-300">Shipping</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="font-bold mb-4">Policy</h5>
+          <ul>
+            <li class="mb-2"><a href="#" class="hover:text-gray-300">Return Policy</a></li>
+            <li class="mb-2"><a href="#" class="hover:text-gray-300">Privacy Policy</a></li>
+            <li class="mb-2"><a href="#" class="hover:text-gray-300">Security</a></li>
+            <li class="mb-2"><a href="#" class="hover:text-gray-300">Sitemap</a></li>
+            <li><a href="#" class="hover:text-gray-300">Grievance Officer</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="font-bold mb-4">Social</h5>
+          <ul class="flex space-x-4">
+            <li><a href="#" class="hover:text-gray-300"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#" class="hover:text-gray-300"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" class="hover:text-gray-300"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" class="hover:text-gray-300"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-8 text-center text-sm text-gray-500">
+        &copy; 2024 Myntra. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+    <script src="items.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
